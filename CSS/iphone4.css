@@ -1,0 +1,61 @@
+header {
+    height: 100vh;
+}
+
+h1 {
+    top: 16rem;
+    right: auto;
+    line-height: 5rem;
+    font-size: 5rem;
+}
+
+header h2 {
+    top: 18rem;
+    font-size: 1.8rem;
+    width: 60%;
+    margin: 0;
+}
+
+header #cisors {
+    height: 4.5rem;
+    width: 4.5rem;
+    top: 90%;
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+}
+
+#navigation {
+    width: 320px;
+}
+
+#about {
+    height: 310vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#about .row {
+    max-width: 100%;
+    margin: 0 2rem;
+}
+
+.row [class^="col-"]:not(:last-child) {
+    max-width: 85%;
+    margin-bottom: 2.5rem;
+}
+
+.row [class^="col-"]:last-child {
+    max-width: 80%;
+}
+
+
+
+.centerH {
+   width: 80%;
+   margin: 2rem 1rem 2rem 2rem;
+}
+
+#tarifs {
+    height: 350vh;
+}

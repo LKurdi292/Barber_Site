@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="./CSS/style.css"/>
+    <link rel="stylesheet" href="./CSS/baseMedias.css">
+    <link rel="stylesheet" media="only screen and (width:320px) and (height: 480px)" href="./CSS/iphone4.css">
+    <link rel="stylesheet" media="only screen and (width: 768px) and (height: 1024px)" href="./CSS/iPad_Mini.css">
+    <link rel="stylesheet" media="only screen and (width: 360px) and (height: 640px)" href="./CSS/galaxy_S5.css">
+    <link rel="stylesheet" media="only screen and (width: 411px) and (height: 731px)" href="./CSS/pixel2.css">
+    <link rel="stylesheet" media="only screen and (width: 320px) and (height: 568px)" href="./CSS/iPhone5_SE.css">
+    <link rel="stylesheet" media="only screen and (width: 375px) and (height: 667px)" href="./CSS/iPhone6_7_8.css">
+    <link rel="stylesheet" media="only screen and (width: 414px) and (height: 736px)" href="./CSS/iPhone6_7_8_PLUS.css">
+    <link rel="stylesheet" media="only screen and (width: 1024px) and (height: 1366px)" href="./CSS/iPad_pro.css">
+
+
+    <!-- Polices de caractères -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <title>Barber</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!-- Gsap de GreenSock (librairie animations) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.js"></script>
+</head>
+
+<body>
+
+    <!-- Accueil  -->
+    <header id="accueil">
+
+        <nav id="navigation">
+            <!-- onclick="toggleNav()"" -->
+            <a href="#accueil" class="liensNav">Accueil</a>
+            <a href="#about" class="liensNav">Nos valeurs</a>
+            <a href="#tarifs" class="liensNav">Nos tarifs</a>
+            <a href="#contact" class="liensNav">Contact</a>
+            <a class="icon liensNav" id="icon">
+                <img src="./images/bars-solid.svg" alt="image-menu">
+            </a>
+        </nav>
+
+        <h1>Votre Barbier Traditionnel.</h1>
+        <h2>Rasoir, Peigne et Savoir-faire.</h2>
+
+        <a href="#accueil" id="cisors"><img src="./images/cut-solid.svg" alt="image-ciseaux"></a>
+
+    </header>
+
+
+
+    <!-- Section About -->
+    <section id="about">
+
+        <div class="centerH">
+            <h2 class="titreAbout">
+                Découvrez nos Valeurs.
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <h3 class="sousTitreAbout">Couper les cheveux comme il y a 100 ans.</h3>
+                <p class="paragraphe">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus eligendi ipsum libero, ipsa
+                    unde consequuntur dicta explicabo voluptatem facilis porro itaque laborum, veniam ab laudantium
+                    architecto. Laboriosam suscipit odio, nam aperiam dignissimos delectus placeat sit animi debitis
+                    mollitia magnam assumenda neque quaerat magni voluptate cum tenetur, omnis laborum saepe non.
+                </p>
+                <h3 class="sousTitreAbout">L'art de tailler une Barbe.</h3>
+                <p class="paragraphe">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus eligendi ipsum libero, ipsa
+                    unde consequuntur dicta explicabo voluptatem facilis porro itaque laborum, veniam ab laudantium
+                    architecto. Laboriosam suscipit odio, nam aperiam dignissimos delectus placeat sit animi debitis
+                    mollitia magnam assumenda neque quaerat magni voluptate cum tenetur, omnis laborum saepe non.
+                </p>
+            </div>
+            <div class="col-1-of-2">
+                <div class="composition">
+                    <img src="./images/3imgs1.jpg" alt="photo barbier 1" class="composition_photo composition_photo--1">
+                    <img src="./images/3imgs2.jpeg" alt="photo barbier 2"
+                        class="composition_photo composition_photo--2">
+                    <img src="./images/3imgs3.jpg" alt="photo barbier 3" class="composition_photo composition_photo--3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Tarifs -->
+    <section id="tarifs">
+        <h2>Nos Tarifs</h2>
+
+        <div id="conteneurFlex">
+
+            <div class="flexCards">
+                <div class="Head">
+                    <p>Dégradé</p>
+                </div>
+
+                <div class="contenu">Huile</div>
+                <div class="contenu">Crème</div>
+                <div class="contenu">Shampoing</div>
+                <div class="contenu">Dégradé</div>
+                <div class="prix">
+                    <p>10€</p>
+                </div>
+            </div>
+
+            <div class="flexCards">
+                <div class="Head">
+                    <p>Barbe</p>
+                </div>
+
+                <div class="contenu">Huile</div>
+                <div class="contenu">Crème</div>
+                <div class="contenu">Shampoing</div>
+                <div class="contenu">Dégradé</div>
+                <div class="prix">
+                    <p>25€</p>
+                </div>
+            </div>
+
+            <div class="flexCards">
+                <div class="Head">
+                    <p>La Totale</p>
+                </div>
+
+                <div class="contenu">Huile</div>
+                <div class="contenu">Crème</div>
+                <div class="contenu">Shampoing</div>
+                <div class="contenu">Dégradé</div>
+                <div class="prix">
+                    <p>35€</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Phrases Slide Carousel -->
+    <section id="phraseSlide">
+
+        <div class="cadre">
+
+            <!-- pour centrer verticalement -->
+            <div class="centre">
+                <!-- pour centrer horizontalement -->
+                <div class="carousel">
+
+                    <!-- pour cacher les phrases qui défileront dans le cadre -->
+                    <div class="changeHidden">
+
+                        <div class="contenant">
+                            <div class="element">"Exceptionnel!"</div>
+                            <div class="element">"Un service impeccable !"</div>
+                            <div class="element">"Barbe parfaitement taillée"</div>
+                            <div class="element">"Des produits de qualité"</div>
+                            <!-- obligé de terminer avec le premier pour fermer la boucle -->
+                            <div class="element">"Exceptionnel!"</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Équipe -->
+    <section id="equipe">
+
+        <h3>Il est temps de rencontrer l'équipe</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deleniti impedit quae.</p>
+
+        <div class="conteneurFlexTeam">
+            
+            <div class="team">
+                <div class="teamPic" id="pic1"></div>
+                <div class="sousTexte">
+                    <h4>John Mcintosh</h4> 
+                    <p>Spécialiste de la barbe.</p>
+                </div>
+            </div>
+
+
+            <div class="team">
+                <div class="teamPic" id="pic2"></div>
+                <div class="sousTexte">
+                    <h4>Peter SmoothHands</h4> 
+                    <p>Roi du dégradé.</p>
+                </div>
+            </div>
+
+
+            <div class="team">
+                <div class="teamPic" id="pic3"></div>
+                <div class="sousTexte">
+                    <h4>Laurie Smith</h4> 
+                    <p>Mains de fée.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Téléphone</h2>
+        <h3>0232 546 98765</h3>
+
+        <div class="flexMedia">
+
+            <div class="medias">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="./images/instagram-brands.svg"> </img>
+                </a>
+            </div>
+
+            <div class="medias">
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img src="./images/twitter-brands.svg"> </img>
+                </a>
+            </div>
+
+            <div class="medias">
+                <a href="https://www.behance.net/" target="_blank">
+                    <img src="./images/behance-brands.svg"> </img>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./JS/app.js"></script>
+    <script src="./JS/greenSock.js"></script>
+</body>
+
+</html>

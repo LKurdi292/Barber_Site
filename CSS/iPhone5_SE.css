@@ -1,0 +1,46 @@
+header {
+    height: 85vh;
+}
+
+h1 {
+    top: 16rem;
+    right: auto;
+    font-size: 4.5rem;
+}
+
+header h2 {
+    top: 19rem;
+    font-size: 1.8rem;
+    width: 75%;
+    left: 15%;
+}
+
+header #cisors {
+    height: 3.2rem;
+    width: 3.2rem;
+    top: 78%;
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+
+header img {
+    margin-top: 15%;
+    width: 1.8rem;
+}
+
+#about {
+    height: 260vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#tarifs {
+    height: 300vh;
+}
+
+#conteneurFlex {
+    padding-bottom: 0;
+    padding-top: 10%;
+    margin-top: 0;
+}

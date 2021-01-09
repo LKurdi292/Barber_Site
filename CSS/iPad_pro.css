@@ -1,0 +1,38 @@
+header {
+    height: 70vh;
+}
+
+h1 {
+    top: 33rem;
+    font-size: 9rem;
+}
+
+header h2 {
+    top: 33rem;
+    font-size: 4.2rem;
+    width: 100%;
+}
+
+header #cisors {
+    height: 6.5rem;
+    width: 6.5rem;
+    top: 60%;
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+#about {
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    padding-left: 10%;
+}
+
+#tarifs {
+    height: 70vh;
+}
+
+#contact {
+    height: 70vh;
+}

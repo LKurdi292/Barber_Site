@@ -1,0 +1,64 @@
+header {
+    height: 75vh;
+}
+
+h1 {
+    top: 18rem;
+    right: auto;
+    font-size: 6rem;
+}
+
+header h2 {
+    top: 20rem;
+    font-size: 2rem;
+    width: 65%;
+    margin: 0;
+    left: 20%;
+}
+
+header #cisors {
+    height: 5.5rem;
+    width: 5.5rem;
+    top: 68%;
+    font-size: 3rem;
+}
+
+header img {
+    margin-top: 20%;
+}
+
+#about {
+    height: 180vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#about .row {
+    max-width: 100%;
+    margin: 0 2rem;
+}
+
+.row [class^="col-"]:not(:last-child) {
+    max-width: 85%;
+    margin-bottom: 2.5rem;
+}
+
+.row [class^="col-"]:last-child {
+    max-width: 80%;
+}
+
+.centerH {
+   width: 90%;
+   margin: 2rem 1rem 2rem 2rem;
+}
+
+#tarifs {
+    height: 240vh;
+}
+
+#conteneurFlex {
+    padding-bottom: 0;
+    padding-top: 10%;
+    margin-top: 0;
+}
